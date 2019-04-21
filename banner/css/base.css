@@ -1,0 +1,18 @@
+body,p,h1,h2,h3,h4,h5,h6,ul,li,ol,dl,dt,dd,pre,table,form{
+    margin:0;
+    padding:0;
+}
+ul,ol{
+    list-style: none;
+}
+body{
+    background-color:#f1f1f1;
+    font:16px/1.5 '微软雅黑';
+}
+a{
+    text-decoration: none;
+    color:white;
+}
+i{
+    font-style: normal;
+}

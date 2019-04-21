@@ -1,0 +1,236 @@
+.banner{
+    width:1226px;
+    height:460px;
+    margin:60px auto;
+    position:relative;
+}
+.imgBox{
+    width:100%;
+    height:100%;
+}
+.imgBox .imgList,.imgList .content,.content a,.content a img{
+    width:100%;
+    height:100%;
+    display: block;
+}
+.imgList .content{
+    position:absolute;
+    left:0;
+    bottom:0;
+}
+.imgBox .leftBtn{
+    width:40px;
+    height:60px;
+    position:absolute;
+    left:234px;
+    top:0;
+    bottom:0;
+    margin-top: auto;
+    margin-bottom: auto;
+}
+.imgBox .rightBtn{
+    width:40px;
+    height:60px;
+    position:absolute;
+    right:0;
+    top:0;
+    bottom:0;
+    margin-top: auto;
+    margin-bottom: auto;
+}
+.list{
+    width:234px;
+    height:100%;
+    position:absolute;
+    left:0;
+    bottom:0;
+    background: rgba(0,0,0,0.6);
+}
+.listBtn{
+    width:100%;
+    height:420px;
+    padding:20px 0;
+}
+.listBtn .btn{
+    width:100%;
+    height:42px;
+    line-height: 42px;
+}
+.listBtn .btn a{
+    display: block;
+    height:100%;
+    padding:0 20px;
+}
+.listBtn .btn a i{
+    float:right;
+}
+.listBtn .btn:hover{
+    background: orange;
+}
+.remand{
+    width:1226px;
+    height:170px;
+    margin:60px auto;
+}
+.leftRemand{
+    float:left;
+    width:228px;
+    height:100%;
+    background: rgba(0,0,0,0.6);
+    padding:3px;
+}
+.leftRemand li{
+    width:75px;
+    height:82px;
+    float: left;
+    padding: 0 3px;
+    box-sizing: border-box;
+}
+.leftRemand li a{
+    display: block;
+    width:90%;
+    height:90%;
+    margin:0 auto;
+    border-right: 1px solid #333333;
+    position:relative;
+    font: 12px '微软雅黑';
+    text-align: center;
+    line-height: 40px;
+}
+.leftRemand > li > a::before {
+    content: '';
+    width: 95%;
+    height: 1px;
+    background: #333333;
+    position: absolute;
+    left:-4px;
+    bottom:-5px;
+}
+.leftItem:nth-child(3) ~  .leftItem > a::before{
+    height:0;
+}
+.leftItem:nth-child(3n) > a{
+    border-right:none;
+}
+.rightRemand{
+    float:right;
+    width:992px;
+    height:176px;
+}
+.rightRemand li{
+    float:left;
+    width:310px;
+    height:100%;
+    overflow: hidden;
+    margin-left: 20px;
+}
+.main{
+    height:auto;
+    padding:20px 0;
+}
+.mainContent{
+    width:1226px;
+    height:auto;
+    margin:0 auto;
+}
+.title{
+    height:58px;
+    font-size: 20px;
+    line-height: 58px;
+}
+.content{
+    width:100%;
+    height:614px;
+}
+.content .contentLeft{
+    float:left;
+    width:234px;
+    height: 100%;
+}
+.contentLeft img{
+    margin-bottom: 10px;
+}
+.content .contentList{
+    float:right;
+    width:992px;
+    height:100%;
+}
+.contentList > .listItem{
+    float:left;
+    width:234px;
+    height:260px;
+    padding:20px 0;
+    margin:0 0 14px 14px;
+    background: white;
+    position: relative;
+    transition: all linear .3s;
+    overflow: hidden;
+}
+.contentList > .listItem:hover{
+    transform: translate(0,-3px);
+    box-shadow: 0 0 3px 0 rgba(0,0,0,0.2);
+}
+.comment{
+    width:100%;
+    height:50px;
+    position: absolute;
+    left:0;
+    bottom:0;
+    transition: all linear .2s;
+}
+.contentList > .listItem:hover .comment{
+    background: orange;
+}
+.listItem .itemThumb a img {
+    width: 160px;
+    height: 160px;
+    margin:0 37px;
+}
+.contentList h3 a{
+    display: block;
+    height:20px;
+    width:100%;
+    font-size: 14px;
+    text-align: center;
+    color:#333;
+    margin-top:10px;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+    overflow: hidden;
+}
+.itemDes{
+    height:20px;
+    font-size: 12px;
+    text-align: center;
+    color: #b0b0b0;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+    overflow: hidden;
+}
+.itemPrice{
+    height:20px;
+    font-size: 14px;
+    text-align: center;
+    margin-top:20px;
+    color:#ff6700;
+}
+.itemPrice del{
+    color:#b0b0b0;
+}
+.tag{
+    width:64px;
+    height:20px;
+    position: absolute;
+    left:85px;
+    top:0;
+    font-size: 12px;
+    color:white;
+    text-align: center;
+    line-height: 20px;
+}
+.green{
+    background:#83c44e;
+}
+.red{
+    background: #e53935;
+}

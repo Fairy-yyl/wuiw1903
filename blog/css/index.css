@@ -1,0 +1,358 @@
+body,p,h1,h2,h3,h4,h5,h6,ul,li,ol,dl,dt,dd,pre,table,form{
+    margin:0;
+    padding:0;
+}
+ul,ol{
+    list-style: none;
+}
+body{
+    background-color:#f1f1f1;
+    font:16px/1.5 '微软雅黑';
+    line-height:46px;
+}
+.header{
+    width:100%;
+    height:46px;
+    background:#333;
+}
+.headerContent{
+    width:1100px;
+    height:100%;
+    margin:auto;
+}
+.headerContent .title{
+    width:250px;
+    height:100%;
+    float:left;
+    font-size: 20px;
+}
+.title2{
+    height:100%;
+    float:right;
+}
+.title2 li{
+    float:left;
+    margin-left:30px;
+}
+a{
+    color:#ffffff;
+    text-decoration: none;
+}
+.pics{
+    width:1100px;
+    height:155px;
+    background: #f1f1f1;
+    margin:20px auto;
+}
+.pics .pic{
+    width:354px;
+    height:100%;
+    overflow: hidden;
+    float:left;
+    border-radius: 5px;
+    position:relative;
+    left:0;
+    bottom:0;
+}
+.pics .pic2{
+    margin:0 19px;
+}
+.pic a{
+    display:block;
+    width:100%;
+    height:100%;
+}
+.pic a img{
+    width:120%;
+}
+.pic .desc{
+    width:100%;
+    line-height:30px;
+    background: rgba(0,0,0,0.9);
+    position:absolute;
+    left:0;
+    bottom:10px;
+    color:#ffffff;
+    padding-left: 15px;
+    box-sizing: border-box;
+}
+/*pics*/
+.main{
+    width:1100px;
+    height:auto;
+    min-height: 500px;
+    margin:0 auto;
+    background-color: #f1f1f1;
+}
+.main .text{
+    width:770px;
+    height:500px;
+    float:left;
+}
+.text .txt{
+    width:100%;
+    height:662px;
+    background:#ffffff;
+    border-radius: 10px;
+}
+.tit{
+    height:40px;
+    border-bottom: 2px solid #333333;
+    padding:0 10px;
+    font:20px/1.5 '微软雅黑';
+    line-height: 40px;
+    color:#868686;
+    position:relative;
+}
+.tabList{
+    position:absolute;
+    top:0;
+    right:10px;
+}
+.tabList > li{
+   float:left;
+    margin:0 10px;
+}
+.tabList > li > a{
+    font-weight: normal;
+    color:#333333;
+    font-size: 14px;
+    position:relative;
+}
+.tabList > li > a::before{
+    content:'';
+    width:10px;
+    height:1px;
+    background: #333333;
+    position:absolute;
+    left:0;
+    bottom:-7px;
+    transform:rotateZ(-45deg);
+}
+.txt .txt2{
+    width:750px;
+    height:580px;
+    margin:20px 10px;
+}
+.txt2 li {
+    width: 219px;
+    height: 259px;
+    float: left;
+    padding: 15px;
+    border-bottom: 1px solid #afa9a9;
+    border-left: 1px solid #afa9a9;
+}
+.txt2 li:hover{
+    box-shadow: 0 0 8px 1px;
+    transition: all 3s ease;
+}
+.txt2 li .picture{
+    height:120px;
+    overflow: hidden;
+    border-radius: 5px;
+}
+.txt2 li .picture:hover img{
+    transition: all 5s ease;
+    transform:scale(2,2);
+}
+.txt2 li .major{
+    height:45px;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow:ellipsis;
+}
+.txt2 li .remand{
+    height:60px;
+    font:15px/1.5 '微软雅黑';
+    color:#868686;
+    display:-webkit-box;
+    -webkit-box-orient:vertical;
+    -webkit-line-clamp:3;
+    font-size:14px;
+    overflow:hidden;
+    text-overflow:ellipsis;
+}
+.txt2 li .lj a{
+    height:25px;
+    color:#75b316;
+}
+.text .txt3{
+    width: 100%;
+    height:1450px;
+    background: #ffffff;
+    margin-top: 20px;
+    border-radius: 10px;
+}
+.txt4 li{
+    width:750px;
+    height:212px;
+    margin:0 10px;
+    border-bottom: 1px solid #c1bebe;
+}
+h4 a{
+    height:46px;
+    color:#404040;
+}
+.txt3 h4 a:hover{
+    color:black;
+}
+.middle{
+    height:130px;
+}
+.txt4 li .picture{
+    width:200px;
+    height:120px;
+    overflow: hidden;
+    float:left;
+    border-radius: 5px;
+}
+.txt4 li .remand{
+    height:65px;
+    width:460px;
+    float:right;
+    margin: 40px 20px 10px;
+    font:15px/1.5 '微软雅黑';
+    color:#868686;
+    display:-webkit-box;
+    -webkit-box-orient:vertical;
+    -webkit-line-clamp:3;
+    font-size:14px;
+    overflow:hidden;
+    text-overflow:ellipsis;
+}
+.txt3 li .inform{
+    height:37px;
+}
+.inform .tag{
+    width:600px;
+    float:left;
+}
+.inform .read {
+    width: 100px;
+    float: right;
+}
+.inform .read a{
+    color:#75b316;
+}
+.inform .read a:hover{
+    text-decoration: underline;
+}
+.main .text2{
+    width:310px;
+    height:500px;
+    float:right;
+}
+.text2 .gyw{
+    height:350px;
+    background: white;
+    border-radius: 10px;
+}
+.topic {
+    height: 50px;
+    font: bold 30px '微软雅黑';
+    color: #333333;
+    text-align: center;
+    position: relative;
+    padding-top:15px;
+}
+.topic::before{
+    content:'';
+    width:60px;
+    height:2px;
+    background: #333333;
+    position:absolute;
+    left:10px;
+    bottom:30px;
+}
+.topic::after{
+    content:'';
+    width:60px;
+    height:2px;
+    background: #333333;
+    position:absolute;
+    right:10px;
+    bottom:30px;
+}
+.gyw .portrait{
+    width:100px;
+    height:100px;
+    margin:15px auto;
+    border-radius: 50%;
+    overflow: hidden;
+}
+.gyw li{
+    height:30px;
+    background: #f1f1f1;
+    margin:8px 10px;
+    line-height: 30px;
+}
+.text2 .ss{
+    height:80px;
+    background: white;
+    margin:20px 0;
+    border-radius: 10px;
+}
+.text2 .phb{
+    height:980px;
+    background: white;
+    border-radius: 10px;
+}
+.phb li{
+    width:290px;
+    height:150px;
+    margin:0 10px;
+    border-bottom:1px solid #c1bebe ;
+}
+.phb li:hover{
+    color:black;
+    border-bottom:1px solid black;
+}
+.text2 .major{
+    height:45px;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow:ellipsis;
+}
+.text2 .picture{
+    width:100px;
+    height:90px;
+    float:left;
+    overflow: hidden;
+    border-radius: 5px;
+}
+.text2 .remand{
+    height:80px;
+    width:170px;
+    float:right;
+    margin: 0 10px;
+    font:15px/1.5 '微软雅黑';
+    color:#868686;
+    display:-webkit-box;
+    -webkit-box-orient:vertical;
+    -webkit-line-clamp:4;
+    font-size:14px;
+    overflow:hidden;
+    text-overflow:ellipsis;
+}
+.text2 .tj{
+    height:980px;
+    background: white;
+    margin:20px 0;
+    border-radius: 10px;
+}
+.tj li{
+    width:290px;
+    height:150px;
+    margin:0 10px;
+    border-bottom:1px solid #c1bebe ;
+}
+.text2 .lj2{
+    height:120px;
+    background: white;
+}
+.text2 .ewm{
+    height:200px;
+    background: white;
+    margin-top:20px;
+    border-radius: 10px;
+}
